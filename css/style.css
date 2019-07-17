@@ -1,0 +1,97 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  background-color: #f2f4f6;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  /*font-size: 1em;*/
+  font-size: 1.15rem;
+}
+
+.profile_img{
+  width: 50%;
+  border-radius: 50%;
+}
+
+h1, h2, h3 {
+  color: #0d3f67;
+  font-family: 'Poppins';
+}
+
+.subhead{
+  font-weight: 500;
+}
+
+.contact-btn{
+  background-color: #6b48ff;
+  border: 1px solid #0d3f67;
+  color: #f2f4f6;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-btn:hover{
+  background-color: #0d3f67;
+  border: 1px solid #6b48ff;
+}
+
+.container{
+  width: 900px;
+  margin: auto;
+}
+
+.card-white {
+  background-color: white;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 30px;
+}
+
+/*Inline list*/
+.list-inline{
+  list-style: none;
+  font-size: 50px;
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline > li > a{
+  color: lightgrey;
+}
+
+.list-inline > li > a:hover{
+  color: #6b48ff;
+}
+
+/*Utilities*/
+
+.text-center{
+  text-align: center;
+}
+
+.btm_margin{
+  margin: 40px 0 20px 0;
+}
+
+
+/*Media queries*/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 100%;
+  }
+}
